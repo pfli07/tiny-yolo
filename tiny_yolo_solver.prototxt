@@ -1,0 +1,25 @@
+net: "tiny_yolo_train.prototxt"
+
+#test_iter* batchsize（TEST阶段）=测试集的大小
+test_iter: 4592
+
+#每训练500次进行一次测试
+test_interval: 1000
+
+#设置为中断后每次重新训练
+test_initialization: false
+
+#每20次打印显示loss
+display: 20
+#每100次计算一下平均值
+average_loss: 100
+
+base_lr:0.001
+lr_policy: "fixed"
+momentum: 0.9
+weight_decay: 0.0005
+
+max_iter: 3000
+snapshot: 200
+snapshot_prefix: "./models/tiny_yolo"
+solver_mode: CPU
