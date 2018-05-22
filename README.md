@@ -18,3 +18,12 @@ With the rapid popularity of automobiles in the world, it brings great convenien
 According to statistics, from 1998 to 2017, there were 709 children in the United States who were confirmed to have died of high temperature and death from motor vehicles. On average, 37 children died each year. In recent years, there have been similar situations in China. It has important practical significance to solve the problem of children's safety in the vehicle.
 ### System Architecture
 ![00](https://github.com/pfli07/tiny-yolo/blob/master/system.png)
+### Function
+In-vehicle detention smart protection system is divided into parking and driving modes, both of which can be switched freely. Parking Away Mode has the following features:
+  * Detained children test (by moving target detection and infrared body sensing)
+  * Remote SMS and phone alerts
+  * Emergency help (by flashing light and whistle alarm)
+  * Temperature monitoring
+The driving mode has the following functions:
+  * Environmental information monitoring (real-time monitoring of formaldehyde concentration and temperature)
+  * Voice interactive control system (with voice recognition function, can achieve control of vehicle equipment)
