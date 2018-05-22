@@ -14,4 +14,4 @@ The “Intelligent Protection System for Children Detained in Vehicles” is bas
 ## Introduction
 ### Project context
 With the rapid popularity of automobiles in the world, it brings great convenience to people and also brings many security risks. Among them, accidents caused by the parents’ negligence have caused children to be locked in cars. When the vehicle is parked, once the child is trapped in the vehicle for a long time, dehydration, heat stroke, high temperature, and even suffocation are easily caused by changes in the temperature inside the vehicle and the accumulation of harmful gases, and because the child does not have a certain self-rescue capability, Can not take appropriate measures, plus most of the windows posted a film, it is difficult for passersby to see the situation from inside.
-![0](https://github.com/pfli07/tiny-yolo/blob/master/Project%20context.png);
+![0](https://github.com/pfli07/tiny-yolo/blob/master/Project%20context.png)
