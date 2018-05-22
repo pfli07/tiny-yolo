@@ -17,7 +17,7 @@ With the rapid popularity of automobiles in the world, it brings great convenien
 ![0](https://github.com/pfli07/tiny-yolo/blob/master/Project%20context.png)
 According to statistics, from 1998 to 2017, there were 709 children in the United States who were confirmed to have died of high temperature and death from motor vehicles. On average, 37 children died each year. In recent years, there have been similar situations in China. It has important practical significance to solve the problem of children's safety in the vehicle.
 ### System Architecture
-![00](https://github.com/pfli07/tiny-yolo/blob/master/yingwen.png)
+![00](https://github.com/pfli07/tiny-yolo/blob/master/yingwen1.png)
 ### Function
 In-vehicle detention smart protection system is divided into parking and driving modes, both of which can be switched freely. 
 * Parking Away Mode
