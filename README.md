@@ -24,7 +24,7 @@ In-vehicle detention smart protection system is divided into parking and driving
   * Detained children test (by moving target detection and infrared body sensing)
   * Remote SMS and phone alerts
   * Emergency help (by flashing light and whistle alarm)
-  * Temperature monitoring<br/><br/>
+  * Temperature monitoring
 * Driving mode
   * Environmental information monitoring (real-time monitoring of formaldehyde concentration and temperature)
   * Voice interactive control system (with voice recognition function, can achieve control of vehicle equipment)
