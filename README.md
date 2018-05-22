@@ -1,6 +1,6 @@
 # Vehicl intelligent protection system for children
 The “Intelligent Protection System for Children Detained in Vehicles” is based on ARC and FPGA heterogeneous platforms. Through smart sensor systems and image processing systems, the vehicle is equipped with intelligent environmental awareness, target detection, remote reminding, emergency assistance, and voice interaction capabilities. Automatically detect whether there are children in the car in a timely manner, promptly remind parents to rush back to deal with remotely, and the system is provided with a key to help and start the emergency help function from the time of danger. Considering this work as an intelligent vehicle-borne system, this system can also be used as an in-vehicle environment monitor during the daily driving process of the vehicle owner, real-time monitoring of environmental information such as formaldehyde, temperature, etc. in the vehicle and displaying and exceeding the notification, while the owner can voice Interactively check the interior environment of the vehicle and control some equipment in the car.
-* [Introduction](# Introduction)
+* [Introduction](# introduction)
   * Project context
   * System Architecture
   * Function
