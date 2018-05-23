@@ -45,5 +45,19 @@ In-vehicle detention smart protection system is divided into parking and driving
 * 3 LED lights
 * 1 cooling fan
 * 2 SDCard
-* 2 mobile power<br/>
-The final result of the work:
+* 2 mobile power
+### Required Software
+* Metaware or ARC GNU Toolset
+* Serial port terminal, such as putty, tera-term or minicom
+* Vivado
+* Vivado HLS
+* Vivado SDK
+### Hardware Connection
+* Connect GPRS module to J1 (Using UART0 interface)
+* OLED screen connected to J2 (Using IIC0 interface)
+* Speech recognition module connected to J3 (Using GPIO interface)
+* Infrared human body sensing module is connected to J3 (Using GPIO interface)
+* Formaldehyde module, temperature detection module, speech synthesis module are all connected to J4 (Using IIC1 interface)
+* FPGA Development Board Connected to J6 via DuPont Line
+* OV7670 camera connected to FPGA
+* Relays and LED lights connect to J5
