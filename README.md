@@ -28,3 +28,22 @@ In-vehicle detention smart protection system is divided into parking and driving
 * Driving mode
   * Environmental information monitoring (real-time monitoring of formaldehyde concentration and temperature)
   * Voice interactive control system (with voice recognition function, can achieve control of vehicle equipment)
+## Hardware and Software Setup
+### Required Hardware
+* 1 DesignWare ARC EM Starter Kit(EMSK)
+* 1 ZYNQ Development Platform (ES-288)
+* 1 OV7670 camera
+* 1 infrared human body induction module
+* 1 temperature detection module
+* 1 GPRS module
+* 1 SIM card
+* 1 formaldehyde module
+* 1 speech recognition module
+* 1 speech synthesis module
+* 1 OLED display
+* 2 Relays
+* 3 LED lights
+* 1 cooling fan
+* 2 SDCard
+* 2 mobile power<br/>
+The final result of the work:
