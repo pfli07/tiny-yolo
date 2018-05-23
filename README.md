@@ -91,3 +91,13 @@ The hardware resources are allocated as following table.
                 #
                 EMBARC_ROOT = ../../../..
                 
+#### Driver
+Placing the drivers' source code in `driver` folder, you can see there are subfolders for GPRS module, Formaldehyde module, Speech synthesis module，Placing the C source file and header file in the corresponding subfolder.
+
+|  folder/file        |            Function           |
+| ------------------- | ------------------------------|
+|                     |                               |
+|                     |                               |
+|                     |                               |
+|                     |                               |
+
