@@ -3,7 +3,7 @@ The “Intelligent Protection System for Children Detained in Vehicles” is bas
 * [Introduction](#introduction)
   * [Project context](#project-context)
   * [System Architecture](#system-architecture)
-  * [Function](#function)
+  * [Function](#function)
 * [Hardware and Software Setup](#hardware-and-software-setup)
   * [Required Hardware](#required-hardware)
   * [Required Software](#required-software)
