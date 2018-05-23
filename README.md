@@ -72,3 +72,18 @@ The hardware resources are allocated as following table.
 | ------------------- | ------------------------------------------------------------- |
 |                     |                                                               |
 |                     |                                                               |
+
+### Run This Application
+
+
+#### Makefile
+- Target options about EMSK and toolchain:
+                BOARD ?= emsk
+                BD_VER ?= 22
+                CUR_CORE ?= arcem11d
+                TOOLCHAIN ?= gnu
+- The relative series of the root directory, here the path of the Makefile is 
+                #
+                # root dir of embARC
+                #
+                EMBARC_ROOT = ../../../..
