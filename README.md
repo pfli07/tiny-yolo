@@ -70,5 +70,5 @@ The hardware resources are allocated as following table.
 
 |  Hardware Resource  |            Function                                           |   
 | ------------------- | ------------------------------------------------------------- |
-|  iLight bar         |        integrated module                                      |
-|  BLE HM-10 module   |        Provide Bluetooth Connection                           |
+|                     |                                                               |
+|                     |                                                               |
