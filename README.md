@@ -67,7 +67,8 @@ In-vehicle detention smart protection system is divided into parking and driving
 ### Before Running This Application
 
 The hardware resources are allocated as following table.
+
 |  Hardware Resource  |            Function                                           |   
 | ------------------- | ------------------------------------------------------------- |
-|                     |                                                               |
-|                     |                                                               |
+|  iLight bar         |        integrated module                                      |
+|  BLE HM-10 module   |        Provide Bluetooth Connection                           |
