@@ -63,3 +63,11 @@ In-vehicle detention smart protection system is divided into parking and driving
    - Connect **OV7670 camera** to **FPGA Development Board**
    - Connect **Relays** and **LED lights** to **J5**
 2. Configure your EMSKs with proper core configuration.
+## User Manual
+### Before Running This Application
+
+The hardware resources are allocated as following table.
+|  Hardware Resource  |            Function                                           |   
+| ------------------- | ------------------------------------------------------------- |
+|                     |                                                               |
+|                     |                                                               |
