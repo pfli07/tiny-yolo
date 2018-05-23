@@ -53,11 +53,13 @@ In-vehicle detention smart protection system is divided into parking and driving
 * Vivado HLS
 * Vivado SDK
 ### Hardware Connection
-* Connect GPRS module to J1 (Using UART0 interface)
-* OLED screen connected to J2 (Using IIC0 interface)
-* Speech recognition module connected to J3 (Using GPIO interface)
-* Infrared human body sensing module is connected to J3 (Using GPIO interface)
-* Formaldehyde module, temperature detection module, speech synthesis module are all connected to J4 (Using IIC1 interface)
-* FPGA Development Board Connected to J6 via DuPont Line
-* OV7670 camera connected to FPGA
-* Relays and LED lights connect to J5
+1. Connect GPRS, OLED display, FPGA development board and other devices to the corresponding interface of EMSK to realize the functions:
+   - Connect **GPRS module** to **J1** (Using UART0 interface)
+   - Connect **OLED screen** to **J2** (Using IIC0 interface)
+   - Connect **Speech recognition module** to **J3** (Using GPIO interface)
+   - Connect **Infrared human body sensing module** to **J3** (Using GPIO interface)
+   - **Formaldehyde module**, **temperature detection module**, **speech synthesis module** are all connected to **J4** (Using IIC1 interface)
+   - Connect **FPGA Development Board** to **J6** via DuPont Line
+   - Connect **OV7670 camera** to **FPGA Development Board**
+   - Connect **Relays** and **LED lights** to **J5**
+2. Configure your EMSKs with proper core configuration.
