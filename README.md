@@ -46,6 +46,7 @@ According to statistics, from 1998 to 2017, there were 709 children in the Unite
 * 1 cooling fan
 * 2 SDCard
 * 2 mobile power
+* 两张图
 ### Required Software
 * Metaware or ARC GNU Toolset
 * Serial port terminal, such as putty, tera-term or minicom
