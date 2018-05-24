@@ -19,7 +19,7 @@ According to statistics, from 1998 to 2017, there were 709 children in the Unite
 ### System Architecture
 ![00](https://github.com/pfli07/tiny-yolo/blob/master/yingwen1.png)
 ### Function
-In-vehicle detention smart protection system is divided into parking and driving modes, both of which can be switched freely. 
+"Intelligent protection system for forgotten children in vehicle" is divided into parking and driving modes, both of which can be switched freely. 
 * Parking Away Mode
   * Detained children test (by moving target detection and infrared body sensing)
   * Remote SMS and phone alerts
