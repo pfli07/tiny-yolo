@@ -21,7 +21,7 @@ According to statistics, from 1998 to 2017, there were 709 children in the Unite
 ### Function
 "Intelligent protection system for forgotten children in vehicle" is divided into parking and driving modes, both of which can be switched freely. 
 * Parking Mode
-  * Detained children test (by moving target detection and infrared body sensing)
+  * Forgotten children test (by moving target detection and infrared body sensing)
   * Remote SMS and phone alerts
   * Emergency help (by flashing light and whistle alarm)
   * Temperature monitoring
