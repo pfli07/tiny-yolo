@@ -65,7 +65,7 @@ According to statistics, from 1998 to 2017, there were 709 children in the Unite
 2. Configure your EMSKs with proper core configuration.
 ## User Manual
 ### Before Running This Application
-Download source code of Intelligent protection system for forgetten children in vehicle from github.Write FPGA image file to SD card, start FPGA.
+Download source code of "Intelligent protection system for forgetten children in vehicle" from github.Write FPGA image file to SD card, start FPGA.
 
 The hardware resources are allocated as following table.
 
