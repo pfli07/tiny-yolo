@@ -65,14 +65,22 @@ According to statistics, from 1998 to 2017, there were 709 children in the Unite
 2. Configure your EMSKs with proper core configuration.
 ## User Manual
 ### Before Running This Application
-Download source code of "Intelligent protection system for forgetten children in vehicle" from github.Write FPGA image file to SD card, start FPGA.
+Download source code of "Intelligent protection system for forgetten children in vehicle" from github.Write FPGA image file to SD card, start ES-288 FPGA.
 
 The hardware resources are allocated as following table.
 
-|  Hardware Resource  |            Function                                           |   
-| ------------------- | ------------------------------------------------------------- |
-|                     |                                                               |
-|                     |                                                               |
+|          Hardware Resource         |                          Function                             |   
+| -----------------------------------| ------------------------------------------------------------- |
+|          OV7670 camera             |                Gathering images for the FPGA                  |
+|infrared human body induction module|     Detect whether there are forgotten children in the car    |
+|    temperature detection module    |             Check the temperature inside the car              |
+|           GPRS module              |              Give the parents an emergency call               |
+|       formaldehyde module          |       Detection of formaldehyde concentration in the car      |
+|    speech recognition module       |                 Identify owner's voice commands               |
+|     speech synthesis module        |               Synthetic interaction speech answer             |
+|          OLED display              |  Display interior temperature and formaldehyde concentration  |
+
+
 
 ### Run This Application
 
@@ -82,7 +90,7 @@ The hardware resources are allocated as following table.
 
                 BOARD ?= emsk
                 BD_VER ?= 22
-                CUR_CORE ?= arcem11d
+                CUR_CORE ?= arcem7d
                 TOOLCHAIN ?= gnu
                 
 - The relative series of the root directory, here the path of the Makefile is 
@@ -97,8 +105,9 @@ Placing the drivers' source code in `driver` folder, you can see there are subfo
 
 |  folder/file        |            Function           |
 | ------------------- | ------------------------------|
-|                     |                               |
-|                     |                               |
-|                     |                               |
-|                     |                               |
+|  CH2O               |  Formaldehyde module driver   |
+|  DETECT             |  Child detection              |
+|  GPRS               |  GPRS module driver           |
+|  LED                |  LED light driver             |
+|  YUYIN              |  Speech synthesis output driver|
 
